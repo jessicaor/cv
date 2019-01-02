@@ -1,0 +1,87 @@
+
+#container{
+	width:1200px;
+	margin:10px auto;
+}
+
+#header{
+	width:80%;
+	height:80px;
+	background-color:yellow;
+}
+
+.name{
+	width:72%;
+	height:100%;
+	background-color:red;
+}
+
+h1{
+	text-align:center;
+	padding-top:1%;
+	color:#2A7F75;
+	font-size:50px;
+}
+
+#infos{
+	width:80%;
+	height:80px;
+	background-color:green;
+}
+
+
+/*xp_formations_containergrid*/
+.grid-container {
+  width:941px;
+  height:600px;
+  display: grid;
+  grid-template-areas: 'myArea myArea';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/*section_xp*/
+.item1, .item2{
+	height:90%;
+}
+
+#compt{
+	width:80%;
+	/*height:200px;
+	background-color:green;*/
+}
+
+#hobbies{
+	width:80%;
+	height:80px;
+	background-color:black;
+}
+
+/*compt_contain_grid*/
+.item3{
+  grid-area: myArea;
+}
+
+.grid-container_compt {
+  display: grid;
+  grid-template-areas: 'myArea myArea myArea myArea myArea';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container_compt > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
